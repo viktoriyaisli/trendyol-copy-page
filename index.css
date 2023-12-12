@@ -1,6 +1,5 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
 }
 a {
   text-decoration: none;
@@ -37,4 +36,59 @@ a {
     border-radius: 50%;
     margin-left: 8px;
     margin-top: 8px;
+}
+.product-info{
+    font-size: 12px;
+}
+.product-info:hover{
+    text-decoration: underline;
+    color: #f27a1a;
+}
+.product-info-color:hover{
+    color: #f27a1a;
+}
+.price{
+    color: #f27a1a;
+}
+.color-choice{
+    width: 50px;
+}
+
+.populer-text{
+    position: relative;
+  
+}
+.populer{
+ position: absolute;
+  bottom:62px;
+  left: 2px;
+  border: 1px solid #f27a1a;
+  padding:0px 5px;
+  background-color: white;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #f27a1a;
+}
+.bi-info-circle{
+    color:#999;
+    font-size: 13px;
+}
+.bi-search{
+    font-size: 20px;
+}
+.btn{
+    border: 1px solid #f27a1a;
+    background-color: #f27a1a;
+    color: white;
+    font-weight: 600;
+
+}
+.bi-heart{
+    color:#999;
+}
+.cargo-info{
+    color:#333;
+    font-size: 12px;
+    
 }
