@@ -87,6 +87,9 @@ a {
 .heart{
     color:#999;
 }
+.heart:hover{
+    color: #f27a1a;
+}
 .cargo-info{
     color:#333;
     font-size: 12px;
