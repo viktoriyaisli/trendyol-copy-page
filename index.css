@@ -1,6 +1,14 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.navbarstart {
+  font-size: 12px;
+  color: #999;
+}
+.navbarstart:hover {
+  color: #4b4a4a;
+}
+
 a {
   text-decoration: none;
   color: #333;
@@ -11,87 +19,115 @@ a {
 .navbar-icon:hover {
   color: #f27a1a;
 }
+.small-photo{
+    width: 40px;
+}
+.choice-photo{
+    border: 2px solid #f27a1a;
+    border-radius: 5px;
+}
 
 .form-control:hover {
-    border: 2px solid #f27a1a;
-   
+  border: 2px solid #f27a1a;
 }
-.list-group-item:hover{
-    text-decoration: underline 2px;
-    color: #f27a1a;
+.list-group-item:hover {
+  text-decoration: underline 2px;
+  color: #f27a1a;
 }
-.text-color:hover{
-    color: #f27a1a;
-
+.text-color:hover {
+  color: #f27a1a;
 }
-.bi-star-fill{
-    font-size: small;
-    color:#ffc000 ;
+.bi-star-fill {
+  font-size: small;
+  color: #ffc000;
 }
-.seperator{
-    display: flex;
-    height: 3px;
-    width: 3px;
-    background-color: #999;
-    border-radius: 50%;
-    margin-left: 8px;
-    margin-top: 8px;
+.seperator {
+  display: flex;
+  height: 3px;
+  width: 3px;
+  background-color: #999;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-top: 8px;
 }
-.product-info{
-    font-size: 12px;
+.product-info {
+  font-size: 12px;
 }
-.product-info:hover{
-    text-decoration: underline;
-    color: #f27a1a;
+.product-info:hover {
+  text-decoration: underline;
+  color: #f27a1a;
 }
-.product-info-color:hover{
-    color: #f27a1a;
+.product-info-color:hover {
+  color: #f27a1a;
 }
-.price{
-    color: #f27a1a;
+.price {
+  color: #f27a1a;
 }
-.color-choice{
-    width: 50px;
+.color-choice {
+  width: 50px;
 }
 
-.populer-text{
-    position: relative;
-  
+.populer-text {
+  position: relative;
 }
-.populer{
- position: absolute;
-  bottom:62px;
+.populer {
+  position: absolute;
+  bottom: 62px;
   left: 2px;
   border: 1px solid #f27a1a;
-  padding:0px 5px;
+  padding: 0px 5px;
   background-color: white;
   font-size: 10px;
   font-weight: 700;
   border-radius: 5px;
   color: #f27a1a;
 }
-.bi-info-circle{
-    color:#999;
-    font-size: 13px;
+.bi-info-circle {
+  color: #999;
+  font-size: 13px;
 }
-.bi-search{
-    font-size: 20px;
+.bi-search {
+  font-size: 20px;
 }
-.btn-add-box{
-    border: 1px solid #f27a1a;
-    background-color: #f27a1a;
-    color: white;
-    font-weight: 600;
-
+.btn-add-box {
+  border: 1px solid #f27a1a;
+  background-color: #f27a1a;
+  color: white;
+  font-weight: 600;
 }
-.heart{
-    color:#999;
+.heart {
+  color: #999;
 }
-.heart:hover{
-    color: #f27a1a;
+.heart:hover {
+  color: #f27a1a;
 }
-.cargo-info{
-    color:#333;
-    font-size: 12px;
+.cargo-info {
+  color: #333;
+  font-size: 12px;
+}
+.one-cıkan-ozl{
+    color: #666;
+    font-size: 12px; 
+    margin-bottom: 2px;
     
+}
+.one-ckn-alt-info{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.hover:hover{
+    text-decoration: none;
+    color: black;
+}
+.fatura{
+    color: #1f6bc1;;
+}
+.fatura-text{
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.bi-chevron-compact-right:hover{
+    color: #f27a1a;
 }

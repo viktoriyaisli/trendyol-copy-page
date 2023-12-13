@@ -4,20 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/icon/font/bootstrap-icons.css">
-  
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/icon/font/bootstrap-icons.css" />
+
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="container-fluid">
       <!-- navbar-start -->
+      <div class="d-flex justify-content-end fw-medium">
+        <p class="me-3">
+          <a href="" class="navbarstart">İndirim Kuponlarım</a>
+        </p>
+        <p class="me-3">
+          <a href="" class="navbarstart">Trendyol'da Satış Yap</a>
+        </p>
+        <p class="me-3"><a href="" class="navbarstart">Hakkımızda</a></p>
+        <p class="me-3"><a href="" class="navbarstart">Yardım & Destek</a></p>
+      </div>
       <div class="row mt-3 align-items-center">
-        <div class="col-md-2 col-2">
+        <div class="col-2">
           <a href=""><h2>trendyol</h2></a>
         </div>
-        <div class="col-md-5 col-10">
-          <form class="d-flex" role="search">
+        <div class="col-md-6 col-10 col-xl-7">
+          <form class="d-flex w-100" role="search">
             <input
               class="form-control me-2"
               type="search"
@@ -30,7 +40,7 @@
           </form>
         </div>
         <div
-          class="col-md-5 col-12 text-lg-center text-sm-start mt-3 mb-2 mt-lg-0"
+          class="col-md-4 col-12 col-xl-3 text-lg-end text-sm-start mt-3 mb-2 mt-lg-0"
         >
           <a href="" class="me-2 m navbar-icon"
             ><i class="bi bi-person me-1"></i>Giriş Yap</a
@@ -136,6 +146,19 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
+            <div class="d-flex justify-content-center">
+              <img
+                src="img/1_org_zoom (1).webp"
+                alt=""
+                class="small-photo me-3 choice-photo"
+              />
+              <img
+                src="img/1_org_zoom (2).webp"
+                alt=""
+                class="small-photo me-3"
+              />
+              <img src="img/1_org_zoom (3).webp" alt="" class="small-photo" />
+            </div>
           </div>
           <div class="col-5 text-start">
             <p class="fs-5">
@@ -168,31 +191,121 @@
               </p>
             </div>
             <h4 class="price">64,99 TL</h4>
-            <h5 class="fs-6">Renk:<i class="bi bi-info-circle ms-2 "></i></h5>
+            <h5 class="fs-6">Renk:<i class="bi bi-info-circle ms-2"></i></h5>
             <div class="d-flex">
-                <div class="populer-text">
-                    <a href="" ><img src="img/1_org_zoom (3).webp" alt="" class="color-choice "></a>
-                    <span class="populer">Popüler</span>
-                </div>
-                <a href="" ><img src="img/1_org_zoom (4).webp" alt="" class="color-choice ms-3"></a>
-                
+              <div class="populer-text">
+                <a href=""
+                  ><img
+                    src="img/1_org_zoom (3).webp"
+                    alt=""
+                    class="color-choice"
+                /></a>
+                <span class="populer">Popüler</span>
+              </div>
+              <a href=""
+                ><img
+                  src="img/1_org_zoom (4).webp"
+                  alt=""
+                  class="color-choice ms-3"
+              /></a>
             </div>
             <div class="d-flex align-items-end">
-              <button class=" btn w-100 mt-5 btn-add-box">Sepete Ekle</button>
+              <button class="btn w-100 mt-5 btn-add-box">Sepete Ekle</button>
               <i class="bi bi-heart heart fs-4 ms-3"></i>
             </div>
             <div class="d-flex mt-3 cargo-info">
               <i class="bi bi-box-fill me-2"></i>
-            <p class="fw-medium">Tahmini Kargoya Teslim:
-              2 gün içinde</p>
+              <p class="fw-medium">Tahmini Kargoya Teslim: 2 gün içinde</p>
+            </div>
+            <p class="fw-medium">Öne Çıkan Özellikler:</p>
+            <div >
+              <ul class="row ps-3">
+                <li class="col-5 me-2 col-lg-2 me-lg-5 list-group-item hover">
+                  <p class="one-cıkan-ozl">Cep Telefonu Modeli</p>
+                  <p class="one-ckn-alt-info">iPhone13</p>
+                </li>
+                <li class="col-5 me-2 col-lg-2 me-lg-5 list-group-item hover">
+                  <p class="one-cıkan-ozl">Materyal</p>
+                  <p class="one-ckn-alt-info">Silikon</p>
+                </li>
+                <li class="col-5 me-2 col-lg-2 me-lg-5 list-group-item hover">
+                  <p class="one-cıkan-ozl">Model</p>
+                  <p class="one-ckn-alt-info">Arka Kapak</p>
+                </li>
+                <li class="col-5 me-2 col-lg-2 me-lg-5 list-group-item hover">
+                  <p class="one-cıkan-ozl">Renk</p>
+                  <p class="one-ckn-alt-info">Beyaz</p>
+                </li>
+                <li class="col-5 me-2 col-lg-2 me-lg-5 list-group-item hover">
+                  <p class="one-cıkan-ozl">Uyumlu Marka</p>
+                  <p class="one-ckn-alt-info">Apple Uyumlu</p>
+                </li>
+                <li class="col-5 me-2 col-lg-2 me-lg-5 list-group-item hover">
+                  <p class="one-cıkan-ozl">Garanti Süresi</p>
+                  <p class="one-ckn-alt-info">Belirtilmemiş</p>
+                </li>
+              </ul>
+            </div>
+              <!-- accordion-info-product-start -->
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+          <p>  Ürün Tüm Özellikleri</p>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <ul class="list-group">
+                <li class="list-group-item">Bu ürün GO AKSESUAR tarafından gönderilecektir.</li>
+                <li class="list-group-item">Kampanya fiyatından satılmak üzere 10 adetten fazla stok sunulmuştur.</li>
+                <li class="list-group-item">İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.</li>
+                <li class="list-group-item">Bir ürün, birden fazla satıcı tarafından satılabilir. Birden fazla satıcı tarafından satışa sunulan ürünlerin satıcıları ürün için belirledikleri fiyata, satıcı puanlarına, teslimat statülerine, ürünlerdeki promosyonlara, kargonun bedava olup olmamasına ve ürünlerin hızlı teslimat ile teslim edilip edilememesine, ürünlerin stok ve kategorileri bilgilerine göre sıralanmaktadır.</li>
+                <li class="list-group-item">Bu üründen en fazla 10 adet sipariş verilebilir. 10 adedin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar. Belirlenen bu limit kurumsal siparişlerde geçerli olmayıp, kurumsal siparişler için farklı limitler belirlenebilmektedir.</li>
+                <li class="list-group-item">15 gün içinde ücretsiz iade. Detaylı bilgi için tıklayın.</li>
+                <li class="list-group-item">Yumuşak ve İpeksi Silikon Dış Yüzey iPhone 13 ve iphone 14 modelini tamamlayacak şekilde tasarlanan Silikon Kılıf, iPhone’unuza mükemmel koruma sağlıyor. Yumuşak dokulu ve ipeksi silikon dış yüzey elinizde harika bir his yaratıyor. İç kısımdaki yumuşak mikrofiber kaplama ise daha da fazla koruma sağlıyor..</li>
+              </ul>
             </div>
           </div>
-          <div class="col-3">col-sm-4</div>
         </div>
       </div>
-         <!-- product-info-end -->
+
+      <!-- accordion-info-product-end -->
+          </div>
+          <div class="col-3 text-start">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-receipt me-2 fs-5"></i> <p class="one-ckn-alt-info mb-1">Kurumsal Fatura</p>
+            </div>
+            <p class="fatura-text">Kurumsal Faturaya Uygun. <a href="" class="fatura">İncele ></a></p>
+            <div>
+              <p class="navbarstart fw-bold">
+                ÜRÜNÜN KAMPANYALARI
+              </p>
+              <div class="d-flex align-items-center">
+                <i class="bi bi-box-fill fs-5"></i>
+                <button type="button" class="btn fatura-text text-start fs-6">150 TL ve Üzeri Kargo Bedava (Satıcı Karşılar) </button>
+              <button class="btn"><i class="bi bi-chevron-compact-right fs-5 "></i></button>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      <!-- product-info-end -->
+    
     </div>
 
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
