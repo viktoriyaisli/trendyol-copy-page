@@ -131,3 +131,165 @@ a {
 .bi-chevron-compact-right:hover{
     color: #f27a1a;
 }
+.accordion-button:not(.collapsed){
+  background-color: rgb(242, 124, 28, 0.5);
+}
+.product-feature{
+  color: black;
+  font-weight: 600;
+}
+.go-accesuar{
+  cursor: pointer;
+  color: #1f6bc1;
+  font-weight: 500;
+  font-size: 14px;
+
+}
+.pointer-btn{
+  border-radius: 5px;
+  background-color: rgb(4, 155, 36);
+  padding:0px 5px;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+  margin-left: 7px;
+
+}
+.bi-info-circle{
+  color:#1f6bc1; ;
+  cursor: pointer;
+}
+.follower{
+  font-size: 10px;
+}
+.succsessful{
+  border: 1px solid #f27a1a;
+  padding: 0px 8px;
+  border-radius: 5px;
+}
+.succsessful-border{
+  position: relative;
+  width: 100%;
+
+}
+.bi-check2-circle{
+width:100%;
+position: absolute;
+font-size: 30px;
+color: #f27a1a;
+bottom: 7px;
+right:4%;
+}
+.bi-chat-left-dots:hover,.bi-gift:hover{
+  color: #f27a1a;
+}
+
+.go-center:hover{
+  color: #f27a1a;
+}
+.star-fs{
+  font-size: 22px;
+}
+.comment{
+  font-size: 12px;
+  font-weight: 600;
+  color: #999;
+}
+.comment-short{
+  color: #999;
+}
+.colection{
+  font-weight: 500;
+  border:1px solid #f27a1a;
+  padding: 15px;
+  margin-top: 16px;
+ }
+ .avanta{
+  position: absolute;
+  z-index: 10;
+  width: 50px;
+  bottom: 50%;
+  right: 50%;
+
+ }
+ .like-product{
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+ }
+ .pay-2{
+  position: absolute;
+ width: 40px;
+ top: 20px;
+ right:8%;
+ z-index: 10;
+ }
+
+ .like-collection{
+  width: 100%;
+  height: 100%;
+  position: relative;
+ }
+ .like-collection-jr{
+  width: 70px;
+  position: absolute;
+  z-index: 10;
+  top: 21px;
+  right: 30px;
+  border-radius: 5px;
+  
+ }
+ .like-collection-jr-2{
+  width: 70px;
+  position: absolute;
+  z-index: 10;
+  top: 34%;
+  right: 30px;
+  border-radius: 5px;
+
+ }
+ .like-collection-jr-3{
+  width: 70px;
+  position: absolute;
+  z-index: 10;
+  top:64%;
+  right: 30px;
+  border-radius: 5px;
+ 
+ }
+ .like-collection-btn{
+  background: rgb(51, 51, 51,0.5);
+  position: absolute;
+  top: 64%;
+  right: 30px;
+  width: 70px;
+  height: 107px;
+  z-index: 12;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+ }
+ .collection-btn{
+  border: 1px solid #f27a1a;
+  font-weight: 600;
+  color: #f27a1a;
+ }
+ .footer-text{
+ color: white;
+
+ }
+ .footer-text:hover{
+  text-decoration: underline #797979;
+  
+  }
+  .foter-under-text{
+    color: white;
+  }
+  .foter-under-text:hover{
+    text-decoration: underline ;
+  }
+  .logo{
+    color: white;
+    font-size: 32px;
+  }
